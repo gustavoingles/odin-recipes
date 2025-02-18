@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
